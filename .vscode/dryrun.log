@@ -1,0 +1,14 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/hamchur/Desktop/pipex'
+cc -Wall -Wextra -Werror -c utils/ft_putstr_fd.c -o utils/ft_putstr_fd.o
+cc -Wall -Wextra -Werror -c utils/ft_split.c -o utils/ft_split.o
+cc -Wall -Wextra -Werror -c utils/ft_strlen.c -o utils/ft_strlen.o
+cc -Wall -Wextra -Werror -c utils/ft_strjoin.c -o utils/ft_strjoin.o
+cc -Wall -Wextra -Werror -c utils/ft_strnstr.c -o utils/ft_strnstr.o
+cc -Wall -Wextra -Werror -c utils/ft_putchar_fd.c -o utils/ft_putchar_fd.o
+cc -Wall -Wextra -Werror -c sources/pipex.c -o sources/pipex.o
+cc -Wall -Wextra -Werror -c sources/errors.c -o sources/errors.o
+cc -Wall -Wextra -Werror -c sources/pipex_utilities.c -o sources/pipex_utilities.o
+cc -Wall -Wextra -Werror utils/ft_putstr_fd.o utils/ft_split.o utils/ft_strlen.o utils/ft_strjoin.o utils/ft_strnstr.o utils/ft_putchar_fd.o sources/pipex.o sources/errors.o sources/pipex_utilities.o -o pipex
+make: Leaving directory `/Users/hamchur/Desktop/pipex'
+ 
